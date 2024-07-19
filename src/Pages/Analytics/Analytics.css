@@ -1,0 +1,42 @@
+.fs-12 {
+    font-size: 12px !important;
+}
+.fs-21 {
+    font-size: 21px !important;
+}
+.fs-20 {
+    font-size: 20px !important;
+}
+.chart-one .apexcharts-xaxis, .chart-one .apexcharts-yaxis, .ant-pagination {
+    display: none !important;
+}
+.ant-avatar-string {
+    font-size: 14px;
+}
+.ant-table-cell {
+    padding: 12px !important;
+}
+.ant-table-content {
+    overflow-x: scroll;
+    min-width: 313px;
+}
+.ant-table-container {
+    overflow: auto;
+}
+.flag-box {
+    border-left : 1px solid #eff0f2;
+}
+
+@media (max-width: 524px)  {
+    .dropdown-toggle {
+        padding: 0;
+    }
+    
+}
+
+@media (max-width: 1200px)  {
+    .flag-box {
+        border-left: 0;
+    }
+    
+}

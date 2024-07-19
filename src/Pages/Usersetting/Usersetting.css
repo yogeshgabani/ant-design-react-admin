@@ -1,0 +1,78 @@
+.profile-section {
+    border: 1px solid #e2e5e8;
+    border-radius: 4px;
+    padding: 20px;
+
+}
+.profile-bg {
+    background-image: url('../../Assets//Images//bg1.jpg');
+    height: 150px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    opacity: 0.7;
+    background-color: #000;
+}
+.bg-gradient1 {
+    background-image: linear-gradient(180deg, #ffffff26, #fff0) !important;
+}
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(3, 45, 70, var(--bs-bg-opacity)) !important;
+}
+.ant-btn-primary {
+    background-color: #038edc;
+}
+.img-thumbnail {
+    background-color: #f7f8fa;
+    border: 1px solid #eff0f2;
+}
+.mt-n5 {
+    margin-top: -48px;
+}
+hr {
+    color: #adb5bd;
+}
+.border {
+    border: 1px solid #eff0f2;
+}
+.setting-header {
+    padding: 16px 20px;
+}
+.p-20 {
+    padding: 20px;
+}
+
+.setting-text .ant-col {
+    width: 100%;
+    text-align: start;
+}
+.setting-text .ant-form-item-label >label {
+    font-size: 14px;
+    color: #495057;
+    font-weight: 500;
+}
+.ant-select-selection-overflow .ant-select-selection-item-remove svg {
+    color: #fff;
+}
+.ant-select-outlined.ant-select-multiple .ant-select-selection-item {
+    border: 1px solid transparent;
+    background: #038edc !important;
+    color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .profile-section {
+        height: max-content !important;
+    }
+    
+}

@@ -1,0 +1,20 @@
+.taskboard-main {
+    border: 1px solid #e2e5e8;
+    box-shadow: 0 2px 3px #eaedf2;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.taskboard-main {
+    padding: 20px;
+}
+.ant-avatar-string {
+    font-weight: 600;
+    font-size: 18px;
+}
+.task-box-one {
+    background-color: #f5f6f8;
+    border: 1px solid #e2e5e8;
+}
+.task-box {
+    border: 1px solid #e2e5e8;
+}

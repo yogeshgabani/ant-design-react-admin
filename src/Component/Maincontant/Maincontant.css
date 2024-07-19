@@ -1,0 +1,264 @@
+ .main-footer {
+   width: calc(100% - 255px);
+   margin-inline-start: auto;
+ }
+ .main-homepage {
+   width: calc(100% - 255px);
+   margin-inline-start: auto;
+   padding: 20px 20px 0;
+   margin-top: 60px;
+ }
+
+
+
+
+
+ /* App.css */
+
+ .dropdown-container {
+   display: flex;
+   gap: 20px;
+   padding: 20px;
+ }
+
+ .dropdown1 .ant-dropdown-menu {
+   background-color: #f0f0f0;
+   border: 1px solid #d9d9d9;
+ }
+
+ .dropdown1 .ant-dropdown-menu-item {
+   color: #1890ff;
+ }
+
+ .dropdown1 .ant-dropdown-menu-item:hover {
+   background-color: #e6f7ff;
+ }
+
+ .btn1 {
+   background-color: #1890ff;
+   color: white;
+   border: none;
+ }
+
+ .btn1:hover {
+   background-color: #40a9ff;
+ }
+
+ .dropdown2 .ant-dropdown-menu {
+   background-color: #fffbe6;
+   border: 1px solid #ffe58f;
+ }
+
+ .dropdown2 .ant-dropdown-menu-item {
+   color: #faad14;
+ }
+
+ .dropdown2 .ant-dropdown-menu-item:hover {
+   background-color: #fff1b8;
+ }
+
+ .btn2 {
+   background-color: #faad14;
+   color: white;
+   border: none;
+ }
+
+ .btn2:hover {
+   background-color: #ffc53d;
+ }
+
+ /* ul.ant-dropdown-menu.ant-dropdown-menu-root.ant-dropdown-menu-vertical.ant-dropdown-menu-light.css-dev-only-do-not-override-j9bb5n{
+    background-color: red;
+  } */
+
+
+ body .ant-dropdown-menu:nth-child(1) {
+   background-color: red;
+ }
+
+ .revenue-box {
+   border: 1px solid #e2e5e8;
+   color: #495057;
+ }
+
+ .revenue-title {
+   font-size: 14px !important;
+   color: #495057 !important;
+   font-weight: 500 !important;
+ }
+
+ .revenue-text {
+   font-size: 21px !important;
+   color: #495057 !important;
+   font-weight: 500 !important;
+   margin: 24px 0 8px 0 !important;
+ }
+
+ .revenue-dropmenu {
+   background-color: #f5f6f8;
+ }
+
+ .revenue-dropmenu .dropdown-toggle {
+   color: #495057bf !important;
+   font-size: 12px;
+   font-weight: 400;
+ }
+
+ .revenue-dropmenu .dropdown-item {
+   color: #495057bf;
+   font-weight: 400;
+   font-size: 14px;
+ }
+
+ .bar-chart .apexcharts-yaxis-texts-g,
+ .bar-chart .apexcharts-xaxis-texts-g,
+ .apexcharts-toolbar,
+ .bar-chart .apexcharts-legend {
+   display: none !important;
+ }
+
+ .fs-14 {
+   font-size: 14px !important;
+ }
+
+ .fs-16 {
+   font-size: 16px !important;
+ }
+
+ .fs-18 {
+   font-size: 18px !important;
+ }
+
+ .fw-500 {
+   font-weight: 500 !important;
+ }
+
+ .grey-color {
+   color: #495057 !important;
+ }
+
+ .light-grey {
+   color: #495057bf !important;
+ }
+
+ .upgrade-btn {
+   background-color: #038edc;
+   border: 1px solid #038edc;
+   font-weight: 400;
+   padding: 7px 12px;
+   border-radius: 4px;
+ }
+
+ .upgrade-btn:hover {
+   background-color: #0379bb;
+   border: 1px solid #0379bb;
+ }
+
+ .generate-btn {
+   color: #74788d;
+   padding: 4px 8px;
+   font-size: 13px;
+   border-color: #0000;
+   background-color: #74788d1a;
+   border-radius: 4px;
+ }
+
+ .generate-btn:hover {
+   background-color: #74788d;
+   color: #fff;
+   border-color: #0000;
+ }
+
+ .sales-title {
+
+   font-size: 25px !important;
+ }
+
+ .sales-list li {
+   padding: 2px 20px;
+   border-left: 1.5px solid #eff0f2;
+   display: inline-block;
+ }
+
+ .table-dropmenu .dropdown-menu {
+   left: -120px !important;
+ }
+
+ .avtar-table img {
+   padding: 2px;
+   border-radius: 50%;
+ }
+
+ .analytic-table {
+   overflow-x: scroll;
+   min-width: 903px;
+   padding: 0;
+ }
+
+ .analytic-table .ant-table-cell {
+   color: #495057bf;
+ }
+
+ .ant-progress-bg {
+   background-color: #038edc !important;
+ }
+
+ .map-selected {
+   fill: #FFDC00;
+ }
+
+ .map-unselected {
+   fill: #39CCCC;
+ }
+
+ .map-selected:hover,
+ .map-unselected:hover {
+   cursor: pointer;
+ }
+
+ .map-img {
+   height: 400px;
+ }
+
+
+
+
+
+
+
+ @media (max-width:992px) {
+   .main-content {
+     width: 100%;
+   }
+   .main-homepage {
+    width: 100%;
+   }
+
+ }
+
+ @media (max-width:576px) {
+   .breadcrumb {
+     display: none;
+   }
+
+   .sales-list li {
+     border: 0;
+   }
+
+   .dropmenu-component {
+     width: 100px !important;
+   }
+
+   .map-img {
+     height: unset;
+   }
+ }
+
+ @media (max-width:424px) {
+   .text-clip {
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+   }
+
+ }

@@ -1,0 +1,41 @@
+.input-text {
+    height: 58px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 16px;
+    font-weight: 400;
+    text-indent: 40px;
+}
+.width-input {
+    width: 400px;
+}
+.hello {
+    position: absolute !important;
+    top: 30%;
+    left: 40px;
+    z-index: 1;
+}
+.input-text:focus .hello {
+    color: #495057a6;
+    /* transform: scale(.85) translateY(-.5rem) translateX(.15rem); */
+    top: 20px;
+}
+.icon-singup {
+    position: absolute;
+    left: 13px;
+    top: 22px;
+    font-size: 16px;
+    color: #495057;
+}
+.text-tnc {
+    font-size: 14px;
+    color: #495057;
+}
+.text-tnc a {
+    color: #038edc !important;
+}
+.footer-copyright {
+    color: #495057bf;
+    font-size: 15px;
+}

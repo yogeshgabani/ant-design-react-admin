@@ -1,0 +1,225 @@
+.main-header {
+    width: calc(100% - 255px);
+    margin-inline-start: auto;
+    padding: 7px 10px;
+    height: 70px;
+    box-shadow: 0 2px 3px #032d460f;
+    position: fixed !important;
+    z-index: 500;
+    right: 0;
+    top: 0;
+}
+.dropmenu-component  {
+    top: 13px !important;
+    box-shadow: 0 5px 6px #032d461a;
+    width: 420px;
+    border: 1px solid #eff0f2;
+    padding: 10px !important;
+}
+.dropdown-toggle {
+    background: transparent;
+    color: #555b6d;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+}
+ .dropdown-toggle::after {
+    display: none;
+}
+.btn.show, .btn:hover, .btn:first-child:active {
+    background-color: #f8f9fa;
+    color: #555b6d;
+
+}
+.dropdown-megamenu {
+    position: unset;
+}
+.component-dropmenu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.component-dropmenu .dropdown-item {
+    color: #495057bf !important;
+    padding: 5px 24px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.component-dropmenu .dropdown-item:hover {
+    color: #495057 !important;
+    background-color: #f8f9fa !important;
+}
+
+.components-menu {
+    padding: 7px 12px;
+}
+.components-menu .ant-space-item {
+    color: #555b6d;
+    font-size: 14px;
+}
+
+.menu-title h5{
+    color: #495057;
+    font-size: 14px;
+    line-height: 1.2;
+    margin: 8px 24px;
+}
+.menu-title a {
+    color: #495057bf;
+    padding: 5px 24px;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+}
+.menu-title a:hover {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+.search-input {
+    outline: none;
+    background-color: #f5f6f8 !important;
+    border: none;
+    text-indent: 20px;
+}
+
+.search-iconmenu {
+    top: 7px;
+    left: 7px;
+    color: #495057bf;
+    font-size: 18px;
+}
+.search-input:hover, .search-input:focus {
+    border: none;
+    box-shadow: none;
+}
+.title-acc {
+    font-size: 14px !important;
+    color: #555b6d !important;
+    font-weight: 600 !important;
+    line-height: 1 !important;
+}
+.acc-text {
+    font-size: 11px;
+    color: #555b6d;
+    font-weight: 600;
+    line-height: 1.2;
+}
+.icon-header {
+    font-size: 24px;
+    color: #555b6d;
+}
+.flagimage {
+    height: 12px !important;
+}
+.flag-menu {
+    width: 160px !important;
+}
+.flag-menu .dropdown-item {
+    font-size: 14px;
+    color: #495057;
+    padding: 5px 24px;
+}
+.web-app-menu {
+    width: 320px !important;
+    left: -270px !important;
+    padding: 0 !important;
+}
+.web-title {
+    border: 1px solid #eff0f2;
+}
+.web-title .ant-typography {
+    font-size: 15px !important;
+    color: #495057 !important;
+}
+.web-title a {
+    font-size: 13px;
+    color: #038edc;
+    font-weight: 600;
+}
+.web-title a:hover {
+    color:  rgb(1.97085, 93.287, 144.52915);
+}
+.web-app-data {
+    height: 270px;
+}
+.web-app-data a .d-flex:hover {
+    background-color: #f8f9fa;
+}
+.web-app-data .d-flex {
+    padding: 12px 16px;
+}
+.web-text-one h5 {
+    color: #495057;
+    font-weight: 500;
+    font-size: 14px;
+}
+.web-text-one .textdata {
+    color: #495057bf;
+    font-size: 12px;
+}
+.web-text-one .ms-2 {
+    line-height: unset;
+    font-size: 10px;
+}
+.setting-drawer .ant-drawer-header {
+    background-color: #032d46;
+}
+.setting-drawer .ant-drawer-header .ant-drawer-header-title .ant-drawer-title{
+    color: #fff;
+    font-size: 18px;
+}
+.setting-drawer .ant-drawer-close {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    background: #444c54;
+    border-radius: 50%;
+    font-size: 12px;
+}
+.setting-drawer .ant-drawer-close:hover {
+    background-color: #444c54 !important;
+    color: #fff;
+}
+.ant-radio-checked .ant-radio-inner  {
+    background-color: #038edc !important;
+    border-color: #038edc !important;
+}
+.acc-drop-title {
+    background-color: #038edc;
+}
+.acc-list-menu ul li {
+    padding: 6px 24px;
+    display: flex;
+    align-items: center;
+    color: #038edc;
+    font-size: 14px;
+}
+.acc-list-menu ul li .me-2 {
+    font-size: 18px;
+    color: #495057bf;
+}
+.acc-list-menu ul li:hover {
+    color: #495057;
+    background-color: #f8f9fa;
+    cursor: pointer;
+}
+.account-dropmenu {
+    width: 200px !important;
+    padding: 0 !important;
+}
+:where(.css-dev-only-do-not-override-j9bb5n).ant-drawer {
+    z-index: 1005;
+}
+
+@media (max-width:992px) {
+    .main-header {
+        width: 100%;
+    }
+    
+}
+@media (max-width:524px)  {
+    .web-app-menu {
+        left: unset !important;
+    }
+}
+
+

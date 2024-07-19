@@ -1,0 +1,90 @@
+.menu-icon-main {
+    font-size: 25px;
+    z-index: 1111;
+    left: 220px;
+    top: 22px;
+    cursor: pointer;
+}
+.hide .sidebar-menu {
+    width: 70px;
+    transition: 0.5s all ease;
+    overflow: visible;
+    overflow-y: unset !important;
+}
+
+.hide .list-data .text-capitalize {
+    padding-left: 20px;
+    display: none;
+}
+.hide .sidebar-menu ul li:hover>.list-data{
+    color: #038edc;
+    width: 200px !important;
+    background-color: #f2f3fe;
+    box-shadow: inset 0 3px 10px 0 #9aa1ab33;
+}
+.hide .list-sub-menu.active  {
+    width: 190px;
+    background-color: #fff;
+}
+.hide .sidebar-menu ul li:hover .text-capitalize, .hide .sidebar-menu ul li:hover .arrow-icon , .hide .sidebar-menu ul li:active .text-capitalize {
+    display: block !important;
+}
+.hide .icon-sidebar {
+    font-size: 24px;
+}
+.hide .sidebar-main, .hide .logo-main {
+    width: 70px;
+    transition: 0.5s all ease;
+}
+
+.hide .sidebar-menu ul .data-name, .hide .arrow-icon, .hide .badge-icon-chat, .hide .auth-msg , .hide .badge-icon {
+    display: none !important;
+}
+.hide .logo-img1 {
+    transition: 0.5s all ease;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.hide .logo-img2, .hide .menu-icon-main2 {
+    display: block !important;
+    transition: 0.5s all ease;
+
+}
+.hide .menu-icon-main {
+    left: 75px;
+    /* transition: 0.5s all ease; */
+    position: fixed !important;
+    top: 22px;
+
+}
+.hide .main-header {
+    padding-left: 25px;
+}
+.hide .main-header, .hide .main-homepage, .hide .main-footer {
+    width: calc(100% - 70px);
+    transition: 0.5s all ease;
+}
+.hide .main-content  {
+    width: 100%;
+    transition: 0.5s all ease;
+  }
+
+.updat-user .ant-input-affix-wrapper {
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #495057;
+    border-radius: 4px;
+    border: 1px solid #eff0f2;
+    background-color: #f8f9fa;
+}
+.updat-user .ant-input-affix-wrapper:focus {
+    border: 1px solid #81c7ee !important;
+    box-shadow: none !important;
+}
+.updat-user .ant-input-affix-wrapper:focus-within {
+    box-shadow: none;
+    border: 1px solid #81c7ee !important;
+
+}

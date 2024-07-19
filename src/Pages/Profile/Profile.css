@@ -1,0 +1,9 @@
+.updat-user .ant-input-affix-wrapper:focus {
+    border: 1px solid #81c7ee !important;
+    box-shadow: none !important;
+}
+.updat-user .ant-input-affix-wrapper:focus-within {
+    box-shadow: none;
+    border: 1px solid #81c7ee !important;
+
+}
